@@ -1,7 +1,7 @@
 {
   "name": "grunt-json-schema-to-markdown",
   "description": "Grunt tool to convert JSON schema to Markdown documentation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/simplemerchant/grunt-json-schema-to-markdown",
   "author": {
     "name": "Edward Woodcock",

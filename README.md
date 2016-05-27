@@ -30,7 +30,7 @@ In your project's Gruntfile, add a section named `json_schema_to_markdown` to th
 
 ```js
 grunt.initConfig({
-  json_schema_to_markdown: {
+  markdown_schema: {
     options: {
       // Task-specific options go here.
     },
@@ -53,7 +53,7 @@ outputs can be specified. Multiple inputs may be combined into one markdown docu
 
 ```js
 grunt.initConfig({
-  json_schema_to_markdown: {
+  markdown_schema: {
     options: {},
     files: {
       'docs/mySchemas.md': ['schemas/schema1.json', 'schemas/schema2.json'],
@@ -64,4 +64,6 @@ grunt.initConfig({
 
 ## Release History
 
-### 0.1.0 Initial release
+#### 0.1.1 - Fix to the README
+
+#### 0.1.0 - Initial release
