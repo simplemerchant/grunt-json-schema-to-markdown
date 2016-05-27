@@ -1,0 +1,46 @@
+{
+  "name": "grunt-json-schema-to-markdown",
+  "description": "Grunt tool to convert JSON schema to Markdown documentation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/simplemerchant/grunt-json-schema-to-markdown",
+  "author": {
+    "name": "Edward Woodcock",
+    "email": "opensource@simple-merchant.com",
+    "url": "http://www.simple-merchant.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplemerchant/grunt-json-schema-to-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/simplemerchant/grunt-json-schema-to-markdown/issues"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/simplemerchant/grunt-json-schema-to-markdown/blob/master/LICENSE-MIT"
+  }],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "gruntplugin",
+    "json",
+    "json schema",
+    "jsonschema",
+    "markdown",
+    "documentation"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "jshint-stylish": "~0.1.5",
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "json-schema-to-markdown": "^1.0.1"
+  }
+}
